@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .homeContainer {
+        padding-top: 6em;
+    }
+
+    .project-div {
+        background-image: url('./images/bg-yellow.png');
+    }
+
+    .sectionOne {
+        margin-bottom: 6em;
+    }
+
+    .homeLeftSide {
+        /* border: 1px solid red; */
+    }
+
+    .homeLeftSide img {
+        width: 50%;
+        height: 50vh;
+    }
+
+    /* .mainDiv {
+        background-color: theme('colors.halfWhite')
+    } */
+
+    .homeRightSide {
+        background-image: url('./images/bg-yellow.png');
+        background-repeat: no-repeat;
+        border-top: none;
+        background-size: 100%;
+    }
+
+    .myImg {
+        background-image: url('./images/myimg.png');
+        background-repeat: no-repeat;
+    }
+
+    .team-div {
+        background-image: url('./images/bg-yellow.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-top: none;
+    }
+
+    .about-div {
+
+        padding-top: 6em;
+    }
+
+    .aboutUsDiv img {
+        margin-top: 4rem;
+    }
+
+    .menuLi:hover {
+        background-color: theme('colors.halfWhite')
+    }
+
+    .aboutUsDiv {
+        background-color: theme('colors.yellow')
+    }
+
+    .aboutImg {
+        background-image: url('./images/about-myimg.png');
+        background-repeat: no-repeat;
+        border-top: none;
+        background-size: 100%;
+    }
+    .footer{
+    background-color: theme('colors.yellow')
+}
+    /* Home Background animation start here */
+    @media only screen and (max-width: 767px) {
+        .navUl {
+            background-color: theme('colors.halfWhite')
+        }
+    }
+}
